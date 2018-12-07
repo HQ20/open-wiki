@@ -2,9 +2,9 @@
 
 Este contracto é um escrow entre duas partes, sendo o saldo extraido de ambas as partes ao mesmo tempo e no final sendo devolvido apenas a uma.
 
-Nota: Este contracto é criado utilizando a biblioteca _openzeppelin-solidity _com uma alteração em _ERC20.sol_ de forma a poder usar _transferFrom_ sem qualquer limite.
+Nota: Este contracto é criado utilizando a biblioteca _openzeppelin-solidity_ com uma alteração em _ERC20.sol_ de forma a poder usar _transferFrom_ sem qualquer limite.
 
-```
+```solidity
 pragma solidity ^0.4.24;
 
 import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
