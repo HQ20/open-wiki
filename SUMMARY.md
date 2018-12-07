@@ -2,6 +2,6 @@
 
 * [Introduction](README.md)
 * [Solidity](solidity.md)
-  * [StepEscrow](chapter1/stepescrow.md)
+  * [StepEscrow](solidity/stepescrow.md)
 * Miscellaneous
 
