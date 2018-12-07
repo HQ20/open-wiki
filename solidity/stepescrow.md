@@ -1,8 +1,6 @@
-# StepEscrow
+# StepEscrow.sol
 
-Este contrato pertende ser um contract _escrow _mas dividido em passos. A cada passo é retirado do contracto uma percentagem de fundos.
-
-
+Este contrato pertende ser um contract \_escrow \_mas dividido em passos. A cada passo é retirado do contracto uma percentagem de fundos.
 
 ```solidity
 pragma solidity ^0.4.23;
@@ -16,7 +14,7 @@ contract StepEscrow {
     address private payee;
     uint256 private steps;
     uint256 private deposits;
-    
+
     event Deposited(address indexed payee, uint256 weiAmount);
 
     /**

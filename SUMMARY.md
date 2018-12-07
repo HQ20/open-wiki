@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Solidity](solidity.md)
-  * [StepEscrow](solidity/stepescrow.md)
-* Miscellaneous
+  * [StepEscrow.sol](solidity/stepescrow.md)
+* [Miscellaneous](miscellaneous.md)
+  * [Parse URL](miscellaneous/parse-url.md)
 
