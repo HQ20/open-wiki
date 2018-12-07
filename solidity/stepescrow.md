@@ -2,6 +2,8 @@
 
 Este contrato pertende ser um contract \_escrow \_mas dividido em passos. A cada passo é retirado do contracto uma percentagem de fundos.
 
+Nota: Este contrato é criado utilizando a biblioteca _openzeppelin-solidity_ sem qualquer alteração.
+
 ```solidity
 pragma solidity ^0.4.23;
 
