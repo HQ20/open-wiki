@@ -7,7 +7,7 @@ Nota: Este contrato é criado utilizando a biblioteca _openzeppelin-solidity_ se
 ```solidity
 pragma solidity ^0.4.23;
 
-import "../node_modules/openzeppelin-solidity/contracts/math/SafeMath.sol";
+import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
 contract StepEscrow {
     using SafeMath for uint256;
