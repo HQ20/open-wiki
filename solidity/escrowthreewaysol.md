@@ -1,8 +1,8 @@
 # EscrowThreeWay.sol
 
-Este contracto é um escrow entre duas partes, sendo o saldo extraido de ambas as partes ao mesmo tempo e no final sendo devolvido apenas a uma.
+This contract is like an _escrow_ contract between two parts, but the difference is that the money is taken for both side and the total amount is sent just to one side.
 
-Nota: Este contracto é criado utilizando a biblioteca _openzeppelin-solidity_ com uma alteração em _ERC20.sol_ de forma a poder usar _transferFrom_ sem qualquer limite.
+**Note**: This contract is created using the library _openzeppelin-solidity_ with only one change in _ERC20.sol_ which allows using _transferFrom_ without any limit.
 
 ```solidity
 pragma solidity ^0.4.24;

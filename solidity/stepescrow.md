@@ -1,8 +1,8 @@
 # StepEscrow.sol
 
-Este contrato pertende ser um contract \_escrow \_mas dividido em passos. A cada passo é retirado do contracto uma percentagem de fundos.
+This contract is like an _escrow_ contract but divided into steps. For each step, a percentage is taken.
 
-Nota: Este contrato é criado utilizando a biblioteca _openzeppelin-solidity_ sem qualquer alteração.
+Note: This contract is created using the library _openzeppelin-solidity_ without changes.
 
 ```solidity
 pragma solidity ^0.4.23;
