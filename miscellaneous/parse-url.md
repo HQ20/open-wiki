@@ -1,6 +1,6 @@
 # Parse URL
 
-## Em NodeJS
+## In NodeJS
 
 ```js
 import url from 'url';
