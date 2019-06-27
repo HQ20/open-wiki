@@ -4,7 +4,7 @@ This contract is like an _escrow_ contract but divided into steps. For each step
 
 Note: This contract is created using the library _openzeppelin-solidity_ without changes.
 
-```solidity
+```js
 pragma solidity ^0.4.23;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
