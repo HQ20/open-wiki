@@ -10,7 +10,5 @@ To better understand the concept, please have further reading at [https://www.re
 
 ## Possible tools
 
-There are few people building their own tools, but currently there's one well know. [https://shipl.co/](https://shipl.co/) is public and available to give a try. The tools simplifies the process of moving to a gas less dapp.
-
-
+There are few people building their own tools, but currently there's one well know. Shipl \([https://shipl.co/](https://shipl.co/)\) is public and available to give a try. The tools simplifies the process of moving to a gas less dapp.
 
