@@ -10,17 +10,17 @@
   * [Gas Less](solidity/gas-less.md)
   * [Signatures](solidity/signatures.md)
   * [Crowdsale Experiments](solidity/crowdsale-experiments.md)
-* Quorum
-* Stellar
+* [Quorum](quorum.md)
+* [Stellar](stellar.md)
 * [KYC](kyc.md)
-  * Civic
-  * uPort
-* Wallets
+  * [Civic](kyc/civic.md)
+  * [uPort](kyc/uport.md)
+* [Wallets](wallets.md)
 
 ## Node.js
 
-* Tests
-* Modules
+* [Tests](tests.md)
+* [Modules](modules.md)
 * [Miscellaneous](miscellaneous.md)
   * [Parse URL](miscellaneous/parse-url.md)
 
