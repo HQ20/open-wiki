@@ -14,7 +14,7 @@ There is no programming language for contract or user permisions like in Ethereu
 
 ![](/assets/stellar-network.png)
 
-As shown in the image above \(and explained here https://www.stellar.org/developers/guides/get-started/index.html more in-depth\) stellar uses 2 layers. The stellar core, which is a group of machines that create the network, and then, the HOrizon server to do the connection between the stellar core and the wallets/apps.
+As shown in the image above \(and explained here [https://www.stellar.org/developers/guides/get-started/index.html](https://www.stellar.org/developers/guides/get-started/index.html) more in-depth\) stellar uses 2 layers. The stellar core, which is a group of machines that create the network, and then, the HOrizon server to do the connection between the stellar core and the wallets/apps.
 
 Some more interesting links
 
@@ -24,10 +24,10 @@ Some more interesting links
 * [https://www.stellar.org/developers/guides/get-started/create-account.html](https://www.stellar.org/developers/guides/get-started/create-account.html)
 
 * [https://stellar.github.io/js-stellar-sdk/TransactionBuilder.html](https://stellar.github.io/js-stellar-sdk/TransactionBuilder.html)
+
 * [https://stellar.github.io/js-stellar-sdk/Operation.html\#.createAccount](https://stellar.github.io/js-stellar-sdk/Operation.html#.createAccount)
+
 * [https://www.stellar.org/developers/guides/walkthroughs/custom-assets.html](https://www.stellar.org/developers/guides/walkthroughs/custom-assets.html)
-
-
 
 
 
