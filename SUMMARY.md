@@ -20,5 +20,4 @@
 * [Tests](tests.md)
 * [Modules](modules.md)
 * [Miscellaneous](miscellaneous.md)
-  * [Parse URL](miscellaneous/parse-url.md)
 
