@@ -13,8 +13,6 @@
 * [Quorum](quorum.md)
 * [Stellar](stellar.md)
 * [KYC](kyc.md)
-  * [Civic](kyc/civic.md)
-  * [uPort](kyc/uport.md)
 * [Wallets](wallets.md)
 
 ## Node.js
