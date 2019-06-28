@@ -4,7 +4,7 @@ This contract is like an _escrow_ contract between two parts, but the difference
 
 **Note**: This contract is created using the library _openzeppelin-solidity_ with only one change in _ERC20.sol_ which allows using _transferFrom_ without any limit.
 
-```solidity
+```js
 pragma solidity ^0.4.24;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
