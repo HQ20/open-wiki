@@ -12,7 +12,7 @@ There is no programming language for contract or user permisions like in Ethereu
 
 ## Network
 
-![](/assets/stellar-network.png)
+![](assets/stellar-network.png)
 
 As shown in the image above \(and explained [here](https://www.stellar.org/developers/guides/get-started/index.html) more in-depth\) stellar uses 2 layers. The stellar core, which is a group of machines that create the network, and then, the Horizon server to do the connection between the stellar core and the wallets/apps.
 
