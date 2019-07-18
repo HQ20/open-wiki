@@ -1,6 +1,6 @@
 # Crowdsale Experiments
 
-![](assets/crowdsale.jpeg)
+![](../assets/crowdsale.jpeg)
 
 from [How to participate in the NEXT.Exchange Token Crowdsale — a beginner's guide](https://medium.com/nextexchange/how-to-participate-in-the-next-exchange-token-crowdsale-a-beginners-guide-7fd95e938b90).
 
