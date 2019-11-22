@@ -4,13 +4,13 @@
     * [Home](/)
 
 * Blockchain
-    * [Solidity](solidity.md)
-        * [Gas Less](solidity/gas-less.md)
-        * [Signatures](solidity/signatures.md)
-        * [Crowdsale Experiments](solidity/crowdsale-experiments.md)
-        * [KYC](solidity/kyc.md)
-        * [Wallets](solidity/wallets.md)
-    * [Stellar](stellar.md)
+    * [Solidity](blockchain/solidity.md)
+        * [Gas Less](blockchain/solidity/gas-less.md)
+        * [Signatures](blockchain/solidity/signatures.md)
+        * [Crowdsale Experiments](blockchain/solidity/crowdsale-experiments.md)
+        * [KYC](blockchain/solidity/kyc.md)
+        * [Wallets](blockchain/solidity/wallets.md)
+    * [Stellar](blockchain/stellar.md)
 
 * Node.js
     * [Tests](nodejs/tests.md)
