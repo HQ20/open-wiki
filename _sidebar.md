@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md -->
 
 * Hello
-    * [Home](/)
+    * [Overview](/)
 
 * Blockchain
     * [Solidity](solidity.md)
