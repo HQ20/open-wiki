@@ -1,7 +1,9 @@
 <!-- docs/_sidebar.md -->
 
-* Hello
+* Welcome
     * [Overview](/)
+    * [git](welcome/git.md)
+    * [Naming Convetions](welcome/naming_convetions.md)
 
 * Blockchain
     * [Solidity](solidity.md)
@@ -18,8 +20,6 @@
     * [Miscellaneous](nodejs/miscellaneous.md)
 
 * TechHQ Development
-    * [git](techhq_development/git.md)
-    * [Naming Convetions](techhq_development/naming_convetions.md)
     * [Blockchain]()
         * [Blockchain Theory](techhq_development/blockchain/blockchain_theory.md)
         * [Blockchain Platforms](techhq_development/blockchain/blockchain_platforms.md)
