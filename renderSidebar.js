@@ -31,4 +31,5 @@ fs.writeFileSync('_sidebar.md', render('./', [
     '_sidebar.md',
     '_404.md',
     'README.md',
+    'CONTRIBUTING.md',
 ], '', 0));
