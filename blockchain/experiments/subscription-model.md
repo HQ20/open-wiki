@@ -7,4 +7,4 @@ The subcription model implements timely payments on the Ethereum blockchain. The
   - One working application would be [daisy payments](https://www.daisypayments.com/).
   - Check out the [docs](https://docs.daisypayments.com/) for the **daisy sdk**.
 
-There is certainly an eye to keep on Daisy. As the transition from the old web to web3 continues, it will be of particular interest to freelancerss, clients, businesses and users, alike.
+There is certainly an eye to keep on Daisy. As the transition from the old web to web3 continues, it will be of particular interest to freelancers, clients, businesses and users, alike.
