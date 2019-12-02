@@ -1,4 +1,4 @@
-# StepEscrow.sol
+# Step Escrow
 
 This contract is like an _escrow_ contract but divided into steps. For each step, a percentage is taken.
 
