@@ -4,7 +4,7 @@
     "description": "> An awesome project :100:.",
     "main": "index.js",
     "dependencies": {
-        "docsify-cli": "4.3.0"
+        "docsify-cli": "4.4.0"
     },
     "scripts": {
         "render-sidebar": "node renderSidebar.js"
