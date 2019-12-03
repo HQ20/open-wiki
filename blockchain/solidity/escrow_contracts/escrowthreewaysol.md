@@ -1,4 +1,4 @@
-# EscrowThreeWay.sol
+# Escrow Three Way
 
 This contract is like an _escrow_ contract between two parts, but the difference is that the money is taken for both side and the total amount is sent just to one side.
 
