@@ -4,7 +4,7 @@ This chapter is about solidity tricks and contracts built within the company and
 
 
 ## Web3J
-When using web3j you need to compile the contracts uaing solc and we3j CLI. But there's a common problem between newsolidity developers.
+When using web3j you need to compile the contracts using solc and we3j CLI. But junior solidity developers stumble upon a common issue.
 
 I wrote [A Gentleman’s Introduction to Web3j from Java](https://www.techhq.io/8172/blockchain-development-a-gentlemans-introduction-to-web3j-from-java/) but that article misses one thing.
 
