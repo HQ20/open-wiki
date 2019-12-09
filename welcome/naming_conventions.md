@@ -33,8 +33,8 @@
 
 # git
 
-The branches have the following format:
-branch_type/feature-hints
+The **branches** have the following format:
+branch\_type/feature/short\_description
 
 Where `branch_type` must be one of new/bug/refactor.
  * New: We are adding functionality that didn't exist before.
@@ -43,13 +43,15 @@ Where `branch_type` must be one of new/bug/refactor.
 
 Where `feature` is one word referring to the target feature for this branch.
 
-And where `hints` is one word, sometimes none, sometimes two, referring to the change.
+And where `short_description` is one word, sometimes none, sometimes two, referring to the change.
 
 Examples:
 `new/whitelist`
 `new/issuance-tokens`
 `refactor/readme-contribute`
 `bug/ci-yarn-integrity`
+
+The **pull requests** have no naming convention, except being required to list in the name the issues they refer to.
 
 # Structure
 
