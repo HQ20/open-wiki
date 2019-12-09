@@ -37,9 +37,9 @@ The branches have the following format:
 branch_type/feature-hints
 
 Where `branch_type` must be one of new/bug/refactor.
-New: We are adding functionality that didn't exist before.
-Bug: We are fixing something that is broken.
-Refactor: The functionality is not changing, but we are making the code better.
+ * New: We are adding functionality that didn't exist before.
+ * Bug: We are fixing something that is broken.
+ * Refactor: The functionality is not changing, but we are making the code better.
 
 Where `feature` is one word referring to the target feature for this branch.
 
