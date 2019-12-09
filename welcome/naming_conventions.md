@@ -47,9 +47,9 @@ And where `short_description` is one word, sometimes none, sometimes two, referr
 
 Examples:
 `new/whitelist`
-`new/issuance-tokens`
-`refactor/readme-contribute`
-`bug/ci-yarn-integrity`
+`new/issuance/tokens`
+`refactor/readme/contribute`
+`bug/ci/yarn-integrity`
 
 The **pull requests** have no naming convention, except being required to list in the name the issues they refer to.
 
