@@ -35,4 +35,4 @@
 	* [Manage Metamask](techhq_development/manage_metamask.md)
 * [welcome]()
 	* [git](welcome/git.md)
-	* [Naming Convetions](welcome/naming_conventions.md)
+	* [Naming Conventions](welcome/naming_conventions.md)
