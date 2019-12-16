@@ -10,11 +10,11 @@ Please, have a look at [github training](https://lab.github.com/githubtraining) 
 
 To improve your skills about git, please visit [https://try.github.io/](https://try.github.io/) and visit **Learn by doing** list.
 
-Before moving any firther, please [read our convetions](techhq_development/naming_convetions.md#git), related to git.
+Before moving any firther, please [read our conventions](welcome/naming_conventions.md#git), related to git.
 
 ## Manage accounts in github
 
-Using our own accounts, we all must have ssh keys. Regarding that, [github has very good focumentation](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
+Using our own accounts, we all must have ssh keys. Regarding that, [github has very good documentation](https://help.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh).
 
 You can find how to generate, add a new key, test it and use it.
 
@@ -22,7 +22,7 @@ Considering that you have an ssh key setup, you must always clone repositories w
 
 ### Manage multiple accounts
 
-Your main account will be used by default in all o your repositories. When working with different clients, they might request a new github account.
+Your main account will be used by default in all of your repositories. When working with different clients, they might request a new github account.
 
 If so, do the follow
 1. create a new ssh key, with a different path
