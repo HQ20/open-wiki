@@ -17,6 +17,7 @@
 * [nodejs]()
 	* [Miscellaneous](nodejs/miscellaneous.md)
 	* [Modules](nodejs/modules.md)
+	* [Packaging](nodejs/packaging.md)
 	* [Tests](nodejs/tests.md)
 * [techhq_development]()
 	* [blockchain]()
@@ -34,4 +35,4 @@
 	* [Manage Metamask](techhq_development/manage_metamask.md)
 * [welcome]()
 	* [git](welcome/git.md)
-	* [Naming Conventions](welcome/naming_conventions.md)
+	* [Naming Convetions](welcome/naming_conventions.md)
