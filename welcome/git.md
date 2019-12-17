@@ -10,7 +10,7 @@ Please, have a look at [github training](https://lab.github.com/githubtraining) 
 
 To improve your skills about git, please visit [https://try.github.io/](https://try.github.io/) and visit **Learn by doing** list.
 
-Before moving any firther, please [read our conventions](welcome/naming_conventions.md#git), related to git.
+Before moving any further, please [read our conventions](welcome/naming_conventions.md#git), related to git.
 
 ## Manage accounts in github
 
@@ -18,7 +18,7 @@ Using our own accounts, we all must have ssh keys. Regarding that, [github has v
 
 You can find how to generate, add a new key, test it and use it.
 
-Considering that you have an ssh key setup, you must always clone repositories with ssh, not https. When opening the github repository, you see the option to `Clone with SSH` or `Clone with HTTPS`. ALways use ssh.
+Considering that you have an ssh key setup, you must always clone repositories with ssh, not https. When opening the github repository, you see the option to `Clone with SSH` or `Clone with HTTPS`. Always use ssh.
 
 ### Manage multiple accounts
 
