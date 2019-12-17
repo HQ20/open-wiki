@@ -17,6 +17,7 @@
 * [nodejs]()
 	* [Miscellaneous](nodejs/miscellaneous.md)
 	* [Modules](nodejs/modules.md)
+	* [Packaging](nodejs/packaging.md)
 	* [Tests](nodejs/tests.md)
 * [techhq_development]()
 	* [blockchain]()
