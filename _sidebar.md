@@ -1,4 +1,6 @@
 * [blockchain]()
+	* [@hq20/contracts]()
+		* [Release Process](blockchain/@hq20/contracts/release-process.md)
 	* [experiments]()
 		* [Conditional Tokens](blockchain/experiments/conditional-tokens.md)
 		* [Subscritpion Model](blockchain/experiments/subscription-model.md)
