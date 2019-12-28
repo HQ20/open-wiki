@@ -1,4 +1,4 @@
-# Subscritpion Model
+# Subscription Model
 
  **NOTE**: *Still in development* (as of Dec 2, 2019).
 
