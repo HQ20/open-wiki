@@ -2,7 +2,7 @@
 	* **experiments**
 		* [Conditional Tokens](blockchain/experiments/conditional-tokens.md)
 		* [Subscription Model](blockchain/experiments/subscription-model.md)
-	* [Experiments](blockchain/experiments.md)
+	* [:see_no_evil: Experiments](blockchain/experiments.md)
 	* **solidity**
 		* [Crowdsale Experiments](blockchain/solidity/crowdsale-experiments.md)
 		* **escrow_contracts**
@@ -12,8 +12,8 @@
 		* [KYC](blockchain/solidity/kyc.md)
 		* [Signatures](blockchain/solidity/signatures.md)
 		* [Wallets](blockchain/solidity/wallets.md)
-	* [Solidity](blockchain/solidity.md)
-	* [Stellar](blockchain/stellar.md)
+	* [:game_die: Solidity](blockchain/solidity.md)
+	* [:clubs: Stellar](blockchain/stellar.md)
 * **NodeJS**
 	* [:art: Miscellaneous](nodejs/miscellaneous.md)
 	* [:gem: Modules](nodejs/modules.md)
@@ -35,4 +35,5 @@
 	* [Manage Metamask](techhq_development/manage_metamask.md)
 * **Welcome**
 	* [git](welcome/git.md)
-	* [Naming Convetions](welcome/naming_conventions.md)
+	* [:necktie: Naming Conventions](welcome/naming-conventions.md)
+	* [Release process](welcome/release-process.md)
