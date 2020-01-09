@@ -1,5 +1,9 @@
 const fs = require('fs');
 const path = require('path');
+const { readSync } = require("node-yaml")
+ 
+const topicsYaml = readSync("topics.yaml");
+const emojiYaml = readSync("emojis.yaml");
 
 
 function render(startPath, ignorePaths, contentSidebar, depth) {
@@ -9,14 +13,20 @@ function render(startPath, ignorePaths, contentSidebar, depth) {
         if (!ignorePaths.includes(filePath)) {
             if (stats.isDirectory()) {
                 // recursive call
-                contentSidebar += `${'\t'.repeat(depth)}\* [${file}]()\n`;
+                let matchTopic = topicsYaml[file] !== undefined ? topicsYaml[file] : file;
+                contentSidebar += `${'\t'.repeat(depth)}\* **${matchTopic}**\n`;
                 contentSidebar = render(filePath, ignorePaths, contentSidebar, depth + 1);
             } else {
                 // add to list
                 if (path.extname(filePath) === '.md') {
-                    const matchValue = fs.readFileSync(filePath).toString().match(/^# ([\w \(\)]+)\n/);
+                    const matchValue = fs.readFileSync(filePath).toString().match(/^# ([\w: \(\)]+)\n/);
+                    let matchEmoji;
+                    if (matchValue[1] !== null) {
+                        matchEmoji = emojiYaml[matchValue[1].toLowerCase()];
+                    }
                     contentSidebar += `${'\t'.repeat(depth)}\* `+
-                        `[${matchValue === null ? 'INVALID TITLE' : matchValue[1]}](${filePath})\n`;
+                        `[${matchEmoji !== undefined ? (':' + matchEmoji + ': ') : ''}` +
+                        `${matchValue === null ? 'INVALID TITLE' : matchValue[1]}](${filePath})\n`;
                 }
             }
         }

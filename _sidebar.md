@@ -1,11 +1,11 @@
-* [blockchain]()
-	* [experiments]()
+* **Blockchain**
+	* **experiments**
 		* [Conditional Tokens](blockchain/experiments/conditional-tokens.md)
 		* [Subscription Model](blockchain/experiments/subscription-model.md)
 	* [Experiments](blockchain/experiments.md)
-	* [solidity]()
+	* **solidity**
 		* [Crowdsale Experiments](blockchain/solidity/crowdsale-experiments.md)
-		* [escrow_contracts]()
+		* **escrow_contracts**
 			* [Escrow Three Way](blockchain/solidity/escrow_contracts/escrowthreewaysol.md)
 			* [Step Escrow](blockchain/solidity/escrow_contracts/step_escrow.md)
 		* [Gas Less](blockchain/solidity/gas-less.md)
@@ -14,13 +14,13 @@
 		* [Wallets](blockchain/solidity/wallets.md)
 	* [Solidity](blockchain/solidity.md)
 	* [Stellar](blockchain/stellar.md)
-* [nodejs]()
-	* [Miscellaneous](nodejs/miscellaneous.md)
-	* [Modules](nodejs/modules.md)
-	* [Packaging](nodejs/packaging.md)
+* **NodeJS**
+	* [:art: Miscellaneous](nodejs/miscellaneous.md)
+	* [:gem: Modules](nodejs/modules.md)
+	* [:package: Packaging](nodejs/packaging.md)
 	* [Tests](nodejs/tests.md)
-* [techhq_development]()
-	* [blockchain]()
+* **techhq_development**
+	* **Blockchain**
 		* [Blockchain Applications](techhq_development/blockchain/blockchain_applications.md)
 		* [Ethereum Developer Roadmap](techhq_development/blockchain/blockchain_developer_roadmap.md)
 		* [Solidity Development (Ethereum Based)](techhq_development/blockchain/blockchain_development.md)
@@ -33,6 +33,6 @@
 	* [JavaScript Style Guide](techhq_development/javascript_development.md)
 	* [Manage Ganache UI App](techhq_development/manage_ganache_ui.md)
 	* [Manage Metamask](techhq_development/manage_metamask.md)
-* [welcome]()
+* **Welcome**
 	* [git](welcome/git.md)
 	* [Naming Convetions](welcome/naming_conventions.md)
