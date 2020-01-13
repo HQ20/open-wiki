@@ -1,6 +1,6 @@
 # KYC
 
-Hello to the KYC \(Know Your Costumer\) section.
+Hello to the KYC \(Know Your Client\) section.
 
 ## uPort
 [See here](https://www.uport.me/)
