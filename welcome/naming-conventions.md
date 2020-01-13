@@ -1,4 +1,4 @@
-# Naming Convetions
+# Naming Conventions
 
 \(to-be-completed\)
 

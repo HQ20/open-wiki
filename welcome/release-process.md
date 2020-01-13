@@ -1,4 +1,6 @@
-# @hq20/contracts release process.
+# Release process
+
+## @hq20/contracts
 
 We will have monthly releases. For each release we will create a milestone in github: https://github.com/HQ20/contracts.
 
