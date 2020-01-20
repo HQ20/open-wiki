@@ -4,6 +4,11 @@
 	* [Manage Metamask](101/manage_metamask.md)
 * **Blockchain**
 	* [Blockchain Applications](blockchain/applications.md)
+	* **ethereum**
+		* [Gas Less](blockchain/ethereum/gas-less.md)
+		* [KYC](blockchain/ethereum/kyc.md)
+		* [Signatures](blockchain/ethereum/signatures.md)
+		* [Wallets](blockchain/ethereum/wallets.md)
 	* [:see_no_evil: Experiments](blockchain/experiments.md)
 	* [Hyperledger Fabric Development](blockchain/hyperledger_fabric.md)
 	* [Pantheon Developer Roadmap](blockchain/pantheon.md)
@@ -15,10 +20,6 @@
 		* **experiments**
 			* [Conditional Tokens](blockchain/solidity/experiments/conditional-tokens.md)
 			* [Subscription Model](blockchain/solidity/experiments/subscription-model.md)
-		* [Gas Less](blockchain/solidity/gas-less.md)
-		* [KYC](blockchain/solidity/kyc.md)
-		* [Signatures](blockchain/solidity/signatures.md)
-		* [Wallets](blockchain/solidity/wallets.md)
 	* [:game_die: Solidity](blockchain/solidity.md)
 	* [:clubs: Stellar](blockchain/stellar.md)
 * **NodeJS**
