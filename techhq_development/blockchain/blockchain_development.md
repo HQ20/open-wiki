@@ -65,14 +65,3 @@ Like it or not, every time that it is possible to avoid writing in Solidity, peo
 ### Other
   * [Manage metamask](techhq_development/manage_metamask.md)
   * [Manage Ganache UI app](techhq_development/manage_ganache_ui.md)
-
-
-# Bitcoin Cash
-## Useful Urls
-  * https://developer.bitcoin.com/
-  * https://github.com/dsmurrell/awesome-bitcoin-cash
-  * [bitcoin cash rest api explorer](https://rest.bitcoin.com/#/block/blockDetails)
-
-# NEM
-## Useful Urls
-  * [Setting up your workstation](https://nemtech.github.io/getting-started/setup-workstation.html)
