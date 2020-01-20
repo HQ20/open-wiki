@@ -66,11 +66,6 @@ Like it or not, every time that it is possible to avoid writing in Solidity, peo
   * [Manage metamask](techhq_development/manage_metamask.md)
   * [Manage Ganache UI app](techhq_development/manage_ganache_ui.md)
 
-# Quorum (Solidity Development)
-*to be written*
-
-
-
 
 # Bitcoin Cash
 ## Useful Urls

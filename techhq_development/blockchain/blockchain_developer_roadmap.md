@@ -84,12 +84,6 @@ The truffle team also realized that build app and connect them to ethereum can b
 
 My favorite is the truffle-box react, but only because it uses react and it makes it very modular and easy to manipulate. Without react, we can also be modular but way less funny and easy (in my opinion). Different than the other truffle boxes, react does not have a tutorial associated with it.
 
-# Quorum Developer Roadmap
-*to be written*
-
-
-
-
 # Pantheon Developer Roadmap
 This is a small résumé from a webinar given by consensys. Bellow are cited some parts of the quickstart document they provided to participants.
 
