@@ -70,18 +70,3 @@ So, now it's time to run the webapp. Considering that you are using the truffle 
 *Same as ethereum.*
 
 
-## Hyperledger Fabric
-How we deploy Hyperledger fabric applications.
-A simple pseudo-tutorial.
-
-### The technologies
-
-  * **Docker** well, it's docker.
-  * **All those dependencies** from [install development environment](https:*hyperledger.github.io/composer/latest/installing/development-tools.html)
-
-### Recommended extensions for VSCode
-  * **Hyperledger Composer** to lint the code
-
-### The environment
-
-Nothing specific. Should follow our structure standard and use the *deploy.sh* script referenced in [here](techhq_development/blockchain_developer_roadmap?id=deploy-the-app) to deploy faster.

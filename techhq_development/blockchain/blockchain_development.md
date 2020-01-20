@@ -70,20 +70,7 @@ Like it or not, every time that it is possible to avoid writing in Solidity, peo
 *to be written*
 
 
-# Hyperledger Fabric Development
-## Useful URL
-  * https://hyperledger-fabric.readthedocs.io
-  * [Hyperledger Composer Modeling Language](https://hyperledger.github.io/composer/v0.16/reference/cto_language)
 
-## Useful tools for development
-  * [hyperledger composer](https://hyperledger.github.io/composer/latest/)
-  * [hyperledger explorer](https://www.hyperledger.org/projects/explorer)
-  * [hyperledger cello](https://www.hyperledger.org/projects/cello)
-
-## Documentation to build a frontend
-  * [Transaction Processor Functions](https://hyperledger.github.io/composer/v0.19/reference/js_scripts)
-  * [Querying and filtering business network data](https://hyperledger.github.io/composer/latest/business-network/query.html#using-filters)
-  * [Where filter](https://loopback.io/doc/en/lb2/Where-filter.html)
 
 # Bitcoin Cash
 ## Useful Urls
