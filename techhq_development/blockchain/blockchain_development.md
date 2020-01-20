@@ -2,16 +2,18 @@
 
 The [cryptozombies.io](cryptozombies.io) tutorial is pretty fun to learn solidity with, it will give you a better idea of actual use cases for blockchain.
 
-**Remix** - The easiest solidity IDE to start with.
+[Remix](https://remix.ethereum.org) - The easiest solidity IDE to start with.
 http://remix.ethereum.org
 
-**Solidity Best Practices** collected from all projects.
+Learn to run a [Geth](https://geth.ethereum.org/) node locally
 
-**Solidity Style Guide**: You don't want to fail fast and break things when coding smart contracts, you might not be able to fix them, so make sure your code is readable from the beginning. Besides, everyone can see your code in the blockchain, avoid public shame and code beautifully.
+[Ganache](https://truffleframework.com/ganache) is a locally running Ethereum blockchain which is a much faster option for testing and debugging that connecting to a public blockchain.
 
-Remix tutorials (or just experiment)
+[Visual Studio Code](techhq_development/development_environments.md) is a development IDE with good support for solidity.
 
-Learn to run a **geth** node locally
+[Tips on Ethereum build environments](https://medium.com/@davekaj/solidity-tips-and-tricks-for-beginners-building-their-first-dapp-on-ethereum-fed32d6a19ac)
+
+[More tips on Ethereum build environments](https://medium.com/coinmonks/what-we-learned-building-our-first-dapp-28b01f9fc244)
 
 Implement the **crowdsale** example from the Ethereum.org website in Remix
 https://www.ethereum.org/crowdsale
