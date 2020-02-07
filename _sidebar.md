@@ -1,5 +1,6 @@
 * **101**
 	* [Blockchain Platforms](101/blockchain_platforms.md)
+	* [Development Environment](101/development_environments.md)
 	* [Manage Ganache UI App](101/manage_ganache_ui.md)
 	* [Manage Metamask](101/manage_metamask.md)
 * **Blockchain**
@@ -28,11 +29,6 @@
 	* [:package: Packaging](nodejs/packaging.md)
 	* [JavaScript Style Guide](nodejs/style_guide.md)
 	* [Tests](nodejs/tests.md)
-* **techhq_development**
-	* **Blockchain**
-		* [Ethereum Developer Roadmap](techhq_development/blockchain/blockchain_developer_roadmap.md)
-		* [Solidity Development (Ethereum Based)](techhq_development/blockchain/blockchain_development.md)
-	* [Development Environment](techhq_development/development_environments.md)
 * **Welcome**
 	* [git](welcome/git.md)
 	* [:necktie: Naming Conventions](welcome/naming-conventions.md)
