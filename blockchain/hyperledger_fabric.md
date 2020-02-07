@@ -58,4 +58,4 @@ A simple pseudo-tutorial.
 
 ### The environment
 
-Nothing specific. Should follow our structure standard and use the *deploy.sh* script referenced in [here](techhq_development/blockchain_developer_roadmap?id=deploy-the-app) to deploy faster.
+Nothing specific. Should follow our structure standard and use the *deploy.sh* script referenced above (in "Deploy the app") to deploy faster.
