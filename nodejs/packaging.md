@@ -9,7 +9,7 @@ If you are looking for how we publish this packages, you are in the right place.
 ```javascript
 {
     "name": "@hq20/package-name",
-    "version": "0.0.1-beta",
+    "version": "v0.0.0",
     "files": [],
     "peerDependencies": {},
     "devDependencies": {}
@@ -22,7 +22,7 @@ Above is an example of a package.json of a project. It should always contains at
 The project name. In most projects we want to have an org scoped project. To do so we add `@hq20/` before the package name. It is not a rule. When starting a new package it must be decided if we use it or not, and when updating, it should never change.
 
 ### version
-We follow the [semver](https://semver.org/) standard. Always starting with version **0.0.1-alpha.0**. Read the standard to understand better. The version needs to be changed in every release.
+We follow the [semver](https://semver.org/) standard. Always starting with version **v0.0.0** (the actuall first release is `v0.0.1-alpha.0`, will be explained below). Read the standard to understand better. The version needs to be changed in every release.
 
 ### files
 Files or folders to be included in the package. We write typescript almost everywhere, we always have tests and most times also scripts. These are all things that we don't want to include. We compile typescript to javascript and then release the js files (often in a `dist` folder). And we also include the types which we usually don't track on git.
@@ -49,7 +49,7 @@ To simplify this activity and not fall into mistakes, we use `npm version`. If y
 
 | Current Version        | npm Command           | Next Version  |
 | ------------- |:-------------:| -----:|
-| 0.0.0      | `npm version prerelease --preid=alpha` | v0.0.1-alpha.0|
+| v0.0.0      | `npm version prerelease --preid=alpha` | v0.0.1-alpha.0|
 | v0.0.1-alpha.0 | `npm version prerelease --preid=alpha` | v0.0.1-alpha.1|
 | v0.0.1-alpha.1 | `npm version prerelease --preid=alpha` | v0.0.1-alpha.2|
 | v0.0.1-alpha.2 | `npm version prerelease --preid=beta` | v0.0.1-beta.0|
