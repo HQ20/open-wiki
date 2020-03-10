@@ -66,22 +66,21 @@ To simplify this activity and not fall into mistakes, we use `npm version`. If y
 
 So, don't concern yourself choosing the next version. Use `npm version`.
 
-This simplifies the process for you, but does some things underneath. For more information, see [documentation](https://docs.npmjs.com/cli/version).
+This simplifies the process, but does some things underneath. For more information, see [documentation](https://docs.npmjs.com/cli/version).
 
-Once you have everything prepared for a new release, run the following command `git checkout dev && git pull && npm version <the remaining part of your npm version command>`.
+Once everything prepared for a new release, run the following command `git checkout master && git pull && npm version <the remaining part of your npm version command>`.
 
-This will ensure that, you are on `dev` branch (which we use for development), you have the branch updated, and just then run the `npm version`.
+This will ensure that, you are on `master` branch, the branch updated, and then run the `npm version`.
 
 After doing so, push the latest update to the remote repository. At this point, there will be a draft relase in the release section of github's repository, thanks to our release drafter (see [here]() how to setup).
 
 ![](../assets/draft-release.png)
 
-Once you see this (be aware that, the CI might still be running, therefore it is not updated), click in "Edit" and you will see a page similar to the following. The tag name will be different, so first, right the desired tag name. The tag name should be the same as the version in *package.json* file (the result of `npm version` above).
+Once you see this (be aware that, the CI might still be running, therefore it is not updated), click in "Edit" and you will see a page similar to the following. The tag name will be different. So first, write the desired tag name. The tag name should be the same as the version in *package.json* file (the result of `npm version` above).
 
 ![](../assets/set-release.png)
 
-(still to be written about automatic release)
-
+Then select the right commit as seen in the picture above. Most likely it will be the last commit, and it cointains the version name. Then, if desired change the body message release. To finally release it, select **Publish release**. After that, the if already setup, the CI system must take care of releasing it. If not, setup, see [here]() how to do it.
 
 ## Test it
 
