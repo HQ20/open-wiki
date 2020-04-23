@@ -66,9 +66,9 @@ JSON-RPC HTTP service endpoint      : http:*localhost:32777/jsonrpc   *
 JSON-RPC WebSocket service endpoint : ws:*localhost:32777/jsonws   *
 Web block explorer address          : http:*localhost:32777   *  
 ```
-In this case, we will add a new network with the URL [http://localhost:32777/jsonrpc](http://localhost:32777/jsonrpc). If you don't know how to add networks to metamask, read [how to do it here](manage_metamask#connect_to_network).
+In this case, we will add a new network with the URL [http://localhost:32777/jsonrpc](http://localhost:32777/jsonrpc). If you don't know how to add networks to metamask, read [how to do it here](manage-metamask#connect_to_network).
 
-Now, let's import an account. Let's use the private key provided during the webinar `0x8F2A55949038A9610F50FB23B5883AF3B4ECB3C3BB792CBCEFBD1542C692BE63`. If you don't know how to import accounts to metamask, see [here](manage_metamask#import_account)
+Now, let's import an account. Let's use the private key provided during the webinar `0x8F2A55949038A9610F50FB23B5883AF3B4ECB3C3BB792CBCEFBD1542C692BE63`. If you don't know how to import accounts to metamask, see [here](manage-metamask#import_account)
 
 ## Deploy an app
 Now, if you create a new account and send ether from the imported account to the new one you will generate a transaction, which can be seen by using *localhost:32777/tx/<hash of transaction>*. During the webinar they didn't show any usage of truffle but it's possible to do it.

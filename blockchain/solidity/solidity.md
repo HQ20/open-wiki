@@ -11,7 +11,7 @@ Learn to run a [Geth](https://geth.ethereum.org/) node locally
 
 [Ganache](https://truffleframework.com/ganache) is a locally running Ethereum blockchain which is a much faster option for testing and debugging that connecting to a public blockchain.
 
-[Visual Studio Code](101/development_environments.md) is a development IDE with good support for solidity.
+[Visual Studio Code](101/development-environments.md) is a development IDE with good support for solidity.
 
 [Tips on Ethereum build environments](https://medium.com/@davekaj/solidity-tips-and-tricks-for-beginners-building-their-first-dapp-on-ethereum-fed32d6a19ac)
 
