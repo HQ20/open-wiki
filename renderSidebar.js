@@ -1,19 +1,10 @@
 const fs = require('fs');
 const path = require('path');
-const { readSync } = require("node-yaml")
+const { readSync } = require('node-yaml')
 
-const topicsYaml = readSync("topics.yaml");
-const emojiYaml = readSync("emojis.yaml");
+const topicsYaml = readSync('topics.yaml');
+const emojiYaml = readSync('emojis.yaml');
 
-
-// thanks to https://github.com/devongovett/slang/blob/master/slang.js
-// Converts a string of words or a camelCased string into a series of words
-// separated by a dash (`-`)
-function dasherize(input) {
-    return input.replace(/\W+/g, '-')
-        .replace(/([a-z\d])([A-Z])/g, '$1-$2')
-        .toLowerCase();
-}
 
 function render(startPath, ignorePaths, contentSidebar, depth) {
     fs.readdirSync(startPath).forEach(file => {
@@ -23,18 +14,20 @@ function render(startPath, ignorePaths, contentSidebar, depth) {
             if (stats.isDirectory()) {
                 // recursive call
                 let matchTopic = topicsYaml[file] !== undefined ? topicsYaml[file] : file;
-                contentSidebar += `${'\t'.repeat(depth)}\* **${matchTopic}**\n`;
+                contentSidebar += `${'\t'.repeat(depth)}\* [${matchTopic}](${path.join(filePath, file + '.md')})\n`;
                 contentSidebar = render(filePath, ignorePaths, contentSidebar, depth + 1);
             } else {
                 // add to list
                 if (path.extname(filePath) === '.md') {
                     const matchValue = fs.readFileSync(filePath).toString().match(/^# ([\w: \(\)]+)\n/);
-                    let matchEmoji;
-                    if (matchValue[1] !== null) {
-                        matchEmoji = emojiYaml[dasherize(matchValue[1])];
+                    const fileNameDashed = path.basename(filePath, '.md');
+                    // ignore the file with same name as folder
+                    if (startPath.indexOf(fileNameDashed) >= 0) {
+                        return;
                     }
+                    let matchEmoji = emojiYaml[fileNameDashed];
                     contentSidebar += `${'\t'.repeat(depth)}\* ` +
-                        `[${matchEmoji !== undefined ? (':' + matchEmoji + ': ') : ''}` +
+                        `[${matchEmoji !== undefined ? (matchEmoji + ' ') : ''}` +
                         `${matchValue === null ? 'INVALID TITLE' : matchValue[1]}](${filePath})\n`;
                 }
             }
