@@ -14,7 +14,8 @@ Below are some examples we've been collecting over time. They were mostly done d
 
 This contract is like an _escrow_ contract but divided into steps. For each step, a percentage is taken.
 
-**Note**: This contract is created using the library _openzeppelin-solidity_ without changes.
+> [!NOTE]
+> This contract is created using the library _openzeppelin-solidity_ without changes.
 
 ```js
 pragma solidity ^0.4.23;
@@ -107,14 +108,16 @@ contract StepEscrow {
 }
 ```
 
-Used in experimental repository.
+> [!NOTE]
+> Used in experimental repository.
 
 
 ## EscrowThreeWay.sol
 
 This contract is like an _escrow_ contract between two parts, but the difference is that the money is taken for both side and the total amount is sent just to one side.
 
-**Note**: This contract is created using the library _openzeppelin-solidity_ with only one change in _ERC20.sol_ which allows using _transferFrom_ without any limit.
+> [!NOTE]
+> This contract is created using the library _openzeppelin-solidity_ with only one change in _ERC20.sol_ which allows using _transferFrom_ without any limit.
 
 ```js
 pragma solidity ^0.4.24;
@@ -169,4 +172,5 @@ contract Escrow {
 }
 ```
 
-Used in [https://github.com/HQ20/strea](https://github.com/HQ20/strea)
+> [!NOTE]
+> Used in [https://github.com/HQ20/strea](https://github.com/HQ20/strea)

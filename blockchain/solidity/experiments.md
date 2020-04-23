@@ -19,7 +19,8 @@ Conditional tokens seem to be industry-specific innovation (related to betting) 
 
 ## Subscription Model
 
- **NOTE**: *Still in development* (as of Dec 2, 2019).
+> [!WARNING]
+> *Still in development* (as of Dec 2, 2019).
 
 The subcription model implements timely payments on the Ethereum blockchain. They strive to be the Stripe of blockchain. There are some EIP's that tried to implement the subscription function, including EIP-948 and EIP-1337. Daisy, a spin-off from Consensys's CoDeFi, stands out as one successful example of such an implementation. There is also an SDK to play with, making programmatic monthly payments on the Ethereum blockchain easy as chat.
 

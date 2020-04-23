@@ -63,4 +63,7 @@ Then, after be sure that contracts are working, it's time to do the webapp. You 
   * *be careful with the configuration in truffle.js*
 
 So, now it's time to run the webapp. Considering that you are using the truffle box react, you run the command `$ truffle develop` in the project folder then `(truffle)> compile` and `(truffle)> migrate` (or `(truffle)> migrate --reset` if you have migrated the contracts before). If everything goes ok, then run the webapp. If it's the truffle box react, use `$ npm run start`.
-**Note** that *truffle develop* needs to keep running. Now just use the webapp. The `console.log` actions will appear on the browser console, just do F12 and select the console tab.
+> [!WARNING]
+> The **$ truffle develop** instance needs to keep running.
+
+Now just use the webapp. The `console.log` actions will appear on the browser console, just do F12 and select the console tab.
