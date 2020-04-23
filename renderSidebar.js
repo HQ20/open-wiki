@@ -14,7 +14,7 @@ function render(startPath, ignorePaths, contentSidebar, depth) {
             if (stats.isDirectory()) {
                 // recursive call
                 const matchTopic = topicsYaml[file] !== undefined ? topicsYaml[file] : file;
-                contentSidebar += `${'\t'.repeat(depth)}\* [${matchTopic}](${path.join(filePath, file + '.md')})\n`;
+                contentSidebar += `${'\t'.repeat(depth)}\* [**${matchTopic}**](${path.join(filePath, file + '.md')})\n`;
                 contentSidebar = render(filePath, ignorePaths, contentSidebar, depth + 1);
             } else {
                 // add to list
@@ -39,7 +39,7 @@ function render(startPath, ignorePaths, contentSidebar, depth) {
 function renderBySection(startPath, ignorePaths, folderOrder, contentSidebar, depth) {
     folderOrder.forEach((currentFolder) => {
         const matchTopic = topicsYaml[currentFolder] !== undefined ? topicsYaml[currentFolder] : currentFolder;
-        contentSidebar += `${'\t'.repeat(depth)}\* [${matchTopic}](${path.join(currentFolder, currentFolder + '.md')})\n`;
+        contentSidebar += `${'\t'.repeat(depth)}\* [**${matchTopic}**](${path.join(currentFolder, currentFolder + '.md')})\n`;
         contentSidebar = render(path.join(startPath, currentFolder), ignorePaths, contentSidebar, depth + 1);
     })
     return contentSidebar;
