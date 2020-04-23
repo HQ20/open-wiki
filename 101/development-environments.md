@@ -1,8 +1,8 @@
 # Development Environment
 ## Generic
 ### The technologies
-  * **VSCode** as the IDE (See [recommeded extensions](101/development_environments?id=recommended-extensions-for-vscode) and [recommended user configurations](101/development_environments?id=recommended-user-configurations-of-vscode)).
-  * **Node.js** for development. (See [recommended versions](101/development_environments?id=recommended-versions-of-nodejs-tools)).
+  * **VSCode** as the IDE (See [recommeded extensions](101/development-environments?id=recommended-extensions-for-vscode) and [recommended user configurations](101/development-environments?id=recommended-user-configurations-of-vscode)).
+  * **Node.js** for development. (See [recommended versions](101/development-environments?id=recommended-versions-of-nodejs-tools)).
   * **React** as frontend framework.
   * **esdoc** for documenting.
   * **eslint** for linting.
@@ -44,8 +44,8 @@ A simple pseudo-tutorial on what do we use to make ethereum dapps.
 ### The technologies
 
   * **Truffle** a set of tools to make dapp development easier.
-  * **Metamask** a browser extension to interact with ethereum blockchain. See [more](101/manage_metamask.md).
-  * **Ganache** local 10 node ethereum blockchain app with UI. See [more](101/manage_ganache_ui.md).
+  * **Metamask** a browser extension to interact with ethereum blockchain. See [more](101/manage-metamask.md).
+  * **Ganache** local 10 node ethereum blockchain app with UI. See [more](101/manage-ganache-ui.md).
 
 ### Recommended extensions for VSCode
   * **vscode-solidity** from juanfranblanco, to lint solidity code
@@ -58,7 +58,7 @@ In the first place we write a contract, then the test to this contract (all usin
 Then, after be sure that contracts are working, it's time to do the webapp. You can build it using truffle box or any other thing, you only need to follow the truffle project folder structure. Let's assume a few things now:
 
   * You already built a webapp and want to test it
-  * You added one truffle account to the metamask extension (see more [here](101/manage_metamask.md))
+  * You added one truffle account to the metamask extension (see more [here](101/manage-metamask.md))
   * This account on metamask has no transactions registered on it (if it has, reset the account)
   * *be careful with the configuration in truffle.js*
 
