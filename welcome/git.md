@@ -29,3 +29,20 @@ If so, do the follow
 2. clone the repository with https
 3. got to the repository folder on your filesystem and run `git config core.sshCommand "ssh -i paths/to/your/new/ssh/keys -F /dev/null"`
 4. change the git url to ssh by copying from the repository and change it locally with `git remote set-url origin <ssh-url>`
+
+## Split and Merge repositories
+
+### Split a repository
+
+Imagine you want to split a given folder in a repository into a new repository. Easy, but what if you want to keep the history of only the commits to that folder and put them on the new repository? And what about cleaning the history from that removed folder from the previous repository. Below and the original links from where the information was taken.
+
+**Sources**
+* https://help.github.com/en/github/using-git/splitting-a-subfolder-out-into-a-new-repository
+* https://stackoverflow.com/a/17824718/3348623
+
+### Merge two repositories
+
+Now imagine that you have two separated repositories and want to merge them into only one and maintaining the history of both of them.
+
+**Sources**
+* https://gist.github.com/msrose/2feacb303035d11d2d05#file-combining-git-repositories-md
