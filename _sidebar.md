@@ -1,6 +1,6 @@
 * [**Welcome**](welcome/welcome.md)
+	* [👔 Conventions](welcome/conventions.md)
 	* [🔱 git](welcome/git.md)
-	* [👔 Naming Conventions](welcome/naming-conventions.md)
 	* [🔄 Release process](welcome/release-process.md)
 * [**101**](101/101.md)
 	* [⛓️ Blockchain Platforms](101/blockchain-platforms.md)
