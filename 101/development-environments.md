@@ -10,16 +10,12 @@
 
 ### Recommended extensions for VSCode
 Always use the most recent version of VSCode and his extensions, except if a specific version is written.
-  * **DotENV** syntax for .env file.
-  * **EditorConfig for VS Code** load config from .editorconfig file
-  * **ESLint** load config from .eslintrc file
-  * **GitLens** awesome extra git tools
-  * **Node.js Modules Intellisense**
-  * **IntelliJ IDEA Keybindings** (optional, to follow a standard)
-  * **solidity by Juan Blanco** (for solidity developers)
-  * **Hyperledger Composer** (for hyperledger developers)
-  * **TSLint** (when using typescript)
-  * **Polacode** (optional, awesome code print screens)
+  * **[EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)** load config from .editorconfig file
+  * **[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)** load config from .eslintrc file
+  * **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)** awesome extra git tools
+  * **[IntelliJ IDEA Keybindings](https://marketplace.visualstudio.com/items?itemName=k--kato.intellij-idea-keybindings)** (optional, to follow a standard)
+  * **[solidity](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity)** (for solidity developers)
+  * **[Polacode](https://marketplace.visualstudio.com/items?itemName=pnp.polacode)** (optional, awesome code print screens)
 
 ### Recommended user configurations of VSCode
 To edit this, use CTRL+SHIFT+P (windows, linux) and write "open user settings". Then on the right side click the three dots and select "Open settings.json". Now, among any onther configs you should have
@@ -31,11 +27,9 @@ To edit this, use CTRL+SHIFT+P (windows, linux) and write "open user settings". 
 }
 ```
 
-
 ### Recommended versions of Node.js Tools
-  * **Node.js** (`node -v`) >= 8.12.0
-  * **yarn** (`yarn -v`) >= 1.10.0 (use yarn)
-
+  * **Node.js** (`node -v`) >= 10.20.1
+  * **yarn** (`yarn -v`) >= 1.22.4 (use [yarn](https://yarnpkg.com/))
 
 ## Ethereum
 How we deploy ethereum applications.
